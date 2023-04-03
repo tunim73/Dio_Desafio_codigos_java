@@ -10,6 +10,10 @@ public class Teste {
         int N = leitor.nextInt();
         int proximo, anterior = 0, atual = 1;
         
+        if( !(0<N && N<46) ) {
+        	System.out.println("Valor de entrada, tem que ser maior que 0 e menor que 46.");
+        }
+        
         for (int i = 1; i <= N; i++) {
           
         	
